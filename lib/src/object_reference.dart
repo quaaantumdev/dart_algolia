@@ -14,8 +14,8 @@ class AlgoliaObjectReference {
   String? get objectID => _objectId;
 
   String? get encodedObjectID =>
-      _objectId != null ? Uri.encodeComponent(_objectId!) : null;
-  String? get encodedIndex => _index != null ? Uri.encodeComponent(_index!) : null;
+      _objectId != null ? Uri.encodeComponent(_objectId) : null;
+  String? get encodedIndex => _index != null ? Uri.encodeComponent(_index) : null;
 
   /// Get the object referred to by this [AlgoliaObjectReference].
   ///
